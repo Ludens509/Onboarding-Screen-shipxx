@@ -6,7 +6,7 @@ export default  Paginator = ({ data, scrollX }) => {
 const {width} = useWindowDimensions();
 
   return (
-    <View style= {{flexDirection:'row', height: 64}}>
+    <View style= {{flexDirection:'row', height: 50}}>
       {data.map((_, i) => {
         //create a variable  for the inputRange that will be an array of 3 values
         //i mis pour index(prev dot, current dot,next dot)
@@ -53,6 +53,5 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     backgroundColor: '#493d8a',
     marginHorizontal: 8,
-    marginBottom:10,
   }
 })
