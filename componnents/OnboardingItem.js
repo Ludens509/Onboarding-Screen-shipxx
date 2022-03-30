@@ -35,12 +35,12 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     fontSize: 28,
     marginBottom:10,
-    color: '#493d8a',
+    color: '#45526E',
     textAlign:'center',
   },
   description:{
     fontWeight: '800',
-    color: '#62652b',
+    color: '#FB981E',
     textAlign:'center',
     paddingHorizontal: 64,
   }
